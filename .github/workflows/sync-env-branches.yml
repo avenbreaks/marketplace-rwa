@@ -18,19 +18,19 @@ jobs:
           git fetch --unshallow
       - name: Sync testnet with main
         run: |
-          git checkout testnets
+          git checkout main
           git pull
           git merge --no-ff main -m "Auto-merge main into testnet"
           git push
       - name: Sync default with main
         run: |
-          git checkout default
+          git checkout main
           git pull
           git merge --no-ff main -m "Auto-merge main into default"
           git push
       - name: Sync privy with main
         run: |
-          git checkout privy
+          git checkout main
           git pull
           git merge --no-ff main -m "Auto-merge main into privy"
           git push
