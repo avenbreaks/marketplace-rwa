@@ -599,7 +599,7 @@ packages:
     dependencies:
       '@types/debug': 4.1.12
       debug: 4.3.4
-      semver: 7.5.4
+      semver: 7.6.0
       superstruct: 1.0.3
     transitivePeerDependencies:
       - supports-color
@@ -5534,8 +5534,8 @@ packages:
     dependencies:
       loose-envify: 1.4.0
 
-  /semver@7.5.4:
-    resolution: {integrity: sha512-1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==}
+  /semver@7.6.0:
+    resolution: {integrity: sha512-EnwXhrlwXMk9gKu5/flx5sv/an57AkRplG3hTK68W7FRDN+k+OWBj65M7719OkA82XLBxrcX0KSHj+X5COhOVg==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
