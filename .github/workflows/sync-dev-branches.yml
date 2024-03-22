@@ -3,7 +3,7 @@ name: Sync dev branches
 on:
   push:
     branches:
-      - dev
+      - main
 
 jobs:
   sync-branches:
